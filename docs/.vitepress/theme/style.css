@@ -1,0 +1,35 @@
+/**
+ * Custom Styles
+ */
+
+/* Hero Gradient Text */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe 30%,
+    #41d1ff
+  );
+}
+
+/* Feature Cards Hover Effect */
+.VPFeature {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.VPFeature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom button gradient overlap */
+.VPButton.brand {
+  background-image: linear-gradient(to right, #bd34fe, #41d1ff);
+  border: none;
+  transition: opacity 0.3s ease;
+}
+
+.VPButton.brand:hover {
+  opacity: 0.8;
+  background-color: transparent; /* Reset to rely on gradient */
+}
