@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "我的精彩笔记",
+  base: "/notes/",
   description: "一个 VitePress 站点",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
