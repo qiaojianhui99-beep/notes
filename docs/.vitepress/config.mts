@@ -35,6 +35,12 @@ export default defineConfig({
             ],
           },
           {
+            text: "常用库",
+            items: [
+              { text: "Axios", link: "/notes/frontend/axios/" },
+            ],
+          },
+          {
             text: "其他",
             items: [
               { text: "后端", link: "/notes/backend" },
@@ -59,6 +65,13 @@ export default defineConfig({
           text: "面试题",
           items: [
             { text: "简介", link: "/notes/interview/" },
+            { text: "JavaScript", link: "/notes/interview/js/" },
+            { text: "TypeScript", link: "/notes/interview/ts/" },
+            { text: "Vue", link: "/notes/interview/vue/" },
+            { text: "React", link: "/notes/interview/react/" },
+            { text: "Vite", link: "/notes/interview/vite/" },
+            { text: "浏览器", link: "/notes/interview/browser/" },
+            { text: "网络", link: "/notes/interview/network/" },
           ],
         },
       ],
@@ -67,6 +80,14 @@ export default defineConfig({
           text: "Rust",
           items: [
             { text: "简介", link: "/notes/tools/rust/" },
+          ],
+        },
+      ],
+      "/notes/frontend/axios/": [
+        {
+          text: "Axios",
+          items: [
+            { text: "简介", link: "/notes/frontend/axios/" },
           ],
         },
       ],
@@ -146,7 +167,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://qiaojianhui99-beep.github.io/notes/" },
     ],
 
     footer: {
